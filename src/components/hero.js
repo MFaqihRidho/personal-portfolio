@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
     return (
-        <div className="container flex w-full px-5 mx-auto font-bold my-36">
+        <div className="container flex flex-row justify-between w-full mx-auto font-bold my-36">
             <div className="flex flex-col gap-4">
                 <h1 className="text-5xl">Hai,Saya</h1>
                 <h1 className="text-7xl text-main">M.Faqih Ridho</h1>
@@ -60,6 +60,11 @@ function Hero() {
                     </a>
                 </div>
             </div>
+            <img
+                className="-mt-16 border-4 rounded-full w-96 h-96"
+                src="https://i.postimg.cc/5tt44XvY/JPEG-20200214-122112-removebg-preview-2.png"
+                alt=""
+            />
         </div>
     );
 }
