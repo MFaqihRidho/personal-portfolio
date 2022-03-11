@@ -2,12 +2,16 @@ import React from "react";
 
 function Hero() {
     return (
-        <div className="container flex flex-row justify-between w-full mx-auto font-bold my-36">
-            <div className="flex flex-col gap-4">
-                <h1 className="text-5xl">Hai,Saya</h1>
-                <h1 className="text-7xl text-main">M.Faqih Ridho</h1>
-                <h1 className="text-4xl font-medium">Front-End Developer</h1>
-                <div className="flex items-center gap-3 mt-3 text-3xl">
+        <div className="container flex flex-col items-center justify-between w-full gap-5 mx-auto my-10 font-bold md:items-start md:flex-row md:px-5 lg:px-0 md:mt-36">
+            <div className="flex flex-col items-center order-2 md:items-start md:gap-4 md:order-1">
+                <h1 className="text-2xl md:text-4xl lg:text-5xl">Hai,Saya</h1>
+                <h1 className="text-3xl md:text-5xl lg:text-7xl text-main">
+                    M.Faqih Ridho
+                </h1>
+                <h1 className="text-xl font-medium md:text-3xl lg:text-4xl">
+                    Front-End Developer
+                </h1>
+                <div className="flex items-center gap-3 mt-3 md:text-xl lg:text-3xl">
                     <button className="px-8 py-1.5 shadow-lg font-semibold border-4 border-black dark:border-white bg-main">
                         Hire Me
                     </button>
@@ -15,7 +19,7 @@ function Hero() {
                         Download CV
                     </button>
                 </div>
-                <div className="flex flex-row gap-3 my-10">
+                <div className="flex flex-row gap-5 my-10 md:gap-3">
                     <a href="">
                         <svg
                             className="fill-black dark:fill-white"
@@ -61,7 +65,7 @@ function Hero() {
                 </div>
             </div>
             <img
-                className="-mt-16 border-4 rounded-full w-96 h-96"
+                className="order-1 w-56 h-56 border-4 rounded-full md:order-2 md:-mt-10 lg:-mt-16 md:w-72 md:h-72 lg:w-96 lg:h-96"
                 src="https://i.postimg.cc/5tt44XvY/JPEG-20200214-122112-removebg-preview-2.png"
                 alt=""
             />

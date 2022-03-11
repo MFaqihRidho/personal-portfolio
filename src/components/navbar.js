@@ -54,7 +54,7 @@ function Navbar() {
     }, [listening]);
 
     return (
-        <nav className="w-full font-bold px-5 my-9 h-[58px]">
+        <nav className="w-full font-bold px-5 my-5 md:my-7 h-[58px]">
             <div
                 ref={menuRef}
                 className="container flex items-center content-center justify-between mx-auto "
@@ -115,7 +115,10 @@ function Navbar() {
                             </svg>
                         )}
                     </button>
-                    <button onClick={() => handleOpen()} className="md:hidden">
+                    <button
+                        onClick={() => handleOpen()}
+                        className="p-1 rounded md:hidden focus:ring-2 focus:ring-main"
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="w-10 h-10"
