@@ -3,21 +3,25 @@ import React from "react";
 function About() {
     return (
         <div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <svg
+                className="-mb-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 320"
+            >
                 <path
                     fill="#FCA311"
                     fill-opacity="1"
                     d="M0,256L80,229.3C160,203,320,149,480,138.7C640,128,800,160,960,170.7C1120,181,1280,171,1360,165.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
                 ></path>
             </svg>
-            <div className="w-full py-10 -mt-1 min-h-fit bg-main">
+            <div className="w-full py-10 text-black min-h-fit bg-main">
                 <div className="container px-5 mx-auto text-center md:grid md:grid-cols-2 md:gap-14">
                     <div className="relative hidden md:flex items-center justify-center border-[7px] w-full h-full">
                         <div className="w-full bg-white flex justify-between h-6 absolute right-0 left-0 top-0 border-b-[7px]">
                             <div className="flex flex-row gap-1">
-                                <div className="w-4 h-4 bg-black rounded-full"></div>
-                                <div className="w-4 h-4 bg-black rounded-full"></div>
-                                <div className="w-4 h-4 bg-black rounded-full"></div>
+                                <div className="w-4 h-4 bg-black rounded-full "></div>
+                                <div className="w-4 h-4 bg-black rounded-full "></div>
+                                <div className="w-4 h-4 bg-black rounded-full "></div>
                             </div>
                             <div className="w-10 h-full border-l-8"></div>
                         </div>
@@ -43,13 +47,24 @@ function About() {
                             <b>Junior Front-End Developer</b>.Saya menekuni
                             programming <b>sejak tahun 2020</b> dan seiring
                             berjalan waktu saya akan terus berkembang
-                            mempelajari banyak bahasa <b>pemrograman</b> dan
+                            mempelajari banyak bahasa <b>pemrograman</b>,dan{" "}
                             <b>framework</b> yang dibutuhkan oleh{" "}
                             <b>industri digital</b>
                         </p>
                     </div>
                 </div>
             </div>
+            <svg
+                className="-mt-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 320"
+            >
+                <path
+                    fill="#FCA311"
+                    fill-opacity="1"
+                    d="M0,192L80,197.3C160,203,320,213,480,208C640,203,800,181,960,176C1120,171,1280,181,1360,186.7L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+                ></path>
+            </svg>
         </div>
     );
 }
