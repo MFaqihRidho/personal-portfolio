@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import About from "./components/about";
 import Skill from "./components/skill";
+import Certificate from "./components/certificate";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Hero></Hero>
             <About></About>
             <Skill></Skill>
+            <Certificate></Certificate>
         </div>
     );
 }
