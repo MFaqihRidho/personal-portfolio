@@ -1,10 +1,19 @@
 import React from "react";
 import { gsap } from "gsap";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 function Footer() {
+    gsap.registerPlugin(ScrollToPlugin);
+    const handleClickToTop = () => {
+        gsap.to(window, { duration: 2, scrollTo: 0 });
+    };
+
     return (
         <div className="flex flex-col items-center justify-center">
-            <button className="flex flex-col items-center justify-center mt-10 w-36 animate-bounce md:-mb-20">
+            <button
+                onClick={handleClickToTop}
+                className="flex flex-col items-center justify-center mt-10 w-36 animate-bounce md:-mb-20"
+            >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-6 h-6"

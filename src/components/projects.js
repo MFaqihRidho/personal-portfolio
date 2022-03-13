@@ -3,7 +3,10 @@ import Card from "./card";
 
 function Projects() {
     return (
-        <div className="container px-5 mx-auto pb-7 lg:-mt-10 min-h-fit">
+        <div
+            id="projects"
+            className="container px-5 mx-auto pb-7 lg:-mt-10 min-h-fit"
+        >
             <h1 className="ml-5 text-3xl font-bold pb-7 text-main md:text-5xl">
                 My Recent Projects
             </h1>

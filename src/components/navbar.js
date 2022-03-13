@@ -1,11 +1,28 @@
 import React, { useEffect, useState, useRef } from "react";
 import MobileNav from "./mobile/mobilenav";
+import { gsap } from "gsap";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 function Navbar() {
     const menuRef = useRef(null);
     const [dark, setDark] = useState(true);
     const [open, setOpen] = useState(false);
     const [listening, setListening] = useState(false);
+    gsap.registerPlugin(ScrollToPlugin);
+
+    const handleClickTo = (id, wave) => {
+        if (wave === true) {
+            gsap.to(window, {
+                duration: 1,
+                scrollTo: { y: `#${id}`, offsetY: -150 },
+            });
+        } else {
+            gsap.to(window, {
+                duration: 1,
+                scrollTo: `#${id}`,
+            });
+        }
+    };
 
     const handleDarkMode = () => {
         setDark(!dark);
@@ -73,12 +90,15 @@ function Navbar() {
                 <div className="flex items-center gap-8 text-2xl font-bold">
                     <button className="hidden font-bold md:block">Home</button>
                     <button
-                        onClick={() => window.scrollTo(0, 500)}
+                        onClick={() => handleClickTo("about", true)}
                         className="hidden font-bold md:block"
                     >
                         About
                     </button>
-                    <button className="hidden font-bold md:block">
+                    <button
+                        onClick={() => handleClickTo("projects", false)}
+                        className="hidden font-bold md:block"
+                    >
                         Projects
                     </button>
                     <button className="hidden font-bold md:block text-main">

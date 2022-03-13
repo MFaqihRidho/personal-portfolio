@@ -1,6 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
+import { TextPlugin } from "gsap/TextPlugin";
 
 function Hero() {
+    gsap.registerPlugin(TextPlugin);
+    useEffect(() => {
+        gsap.to("#stack", {
+            duration: 2,
+            text: {
+                value: "Front-End Developer",
+                newClass: "class2",
+                oldClass: "class1",
+            },
+            ease: "power-2",
+            delay: 0.5,
+        });
+    }, []);
+
     return (
         <div className="container flex flex-col items-center justify-between w-full gap-5 mx-auto my-10 font-bold md:items-start md:flex-row md:px-5 lg:px-0 md:mt-36">
             <div className="flex flex-col items-center order-2 md:items-start md:gap-4 md:order-1">
@@ -8,8 +24,11 @@ function Hero() {
                 <h1 className="text-3xl md:text-5xl lg:text-7xl text-main">
                     M.Faqih Ridho
                 </h1>
-                <h1 className="text-xl font-medium md:text-3xl lg:text-4xl">
-                    Front-End Developer
+                <h1
+                    id="stack"
+                    className="text-xl font-medium md:text-3xl lg:text-4xl"
+                >
+                    Handsome Programmer
                 </h1>
                 <div className="flex items-center gap-3 mt-3 md:text-xl lg:text-3xl">
                     <button className="px-8 py-1.5 shadow-lg font-semibold border-4 border-black dark:border-white bg-main">
