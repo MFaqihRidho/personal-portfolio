@@ -72,7 +72,12 @@ function Navbar() {
                 </div>
                 <div className="flex items-center gap-8 text-2xl font-bold">
                     <button className="hidden font-bold md:block">Home</button>
-                    <button className="hidden font-bold md:block">About</button>
+                    <button
+                        onClick={() => window.scrollTo(0, 500)}
+                        className="hidden font-bold md:block"
+                    >
+                        About
+                    </button>
                     <button className="hidden font-bold md:block">
                         Projects
                     </button>

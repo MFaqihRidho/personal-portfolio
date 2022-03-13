@@ -4,15 +4,17 @@ import Hero from "./components/hero";
 import About from "./components/about";
 import Skill from "./components/skill";
 import Certificate from "./components/certificate";
+import Projects from "./components/projects";
 
 function App() {
     return (
-        <div className="text-black transition-all duration-300 dark:text-white font-Spartan bg-[url('https://i.postimg.cc/7LqP0TtN/light.jpg')] dark:bg-[url('https://i.postimg.cc/bwcwY5QW/dark.png')] flex flex-col min-h-screen">
+        <div className="text-black scroll-smooth transition-all duration-300 dark:text-white font-Spartan bg-[url('https://i.postimg.cc/7LqP0TtN/light.jpg')] dark:bg-[url('https://i.postimg.cc/bwcwY5QW/dark.png')] flex flex-col min-h-screen">
             <Navbar></Navbar>
             <Hero></Hero>
             <About></About>
             <Skill></Skill>
             <Certificate></Certificate>
+            <Projects></Projects>
         </div>
     );
 }

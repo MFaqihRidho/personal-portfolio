@@ -29,7 +29,7 @@ function Certificate() {
                                         href="https://www.dicoding.com/certificates/L4PQ37RW4PO1"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 md:h-44 w-full md:w-90 object-cover"
+                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
                                             src="https://i.postimg.cc/43GrJtg4/sertifikat-course-163-1265221-211221131106-1.png"
                                             alt=""
                                         />
@@ -45,7 +45,7 @@ function Certificate() {
                                         href="https://www.freecodecamp.org/certification/faqih_ridho/responsive-web-design"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 md:h-44 w-full md:w-90 object-cover"
+                                            className="xl:h-80 lg:h-64 sm:h-56 h-28 md:h-44 sm:w-full w-40 md:w-90 object-cover"
                                             src="https://i.postimg.cc/9M9202kC/image-2022-03-12-130929.png"
                                             alt=""
                                         />
@@ -61,7 +61,7 @@ function Certificate() {
                                         href="https://www.freecodecamp.org/certification/faqih_ridho/front-end-development-libraries"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 md:h-44 w-full md:w-90 object-cover"
+                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
                                             src="https://i.postimg.cc/KvMTb3fH/image-2022-03-12-131553.png"
                                             alt=""
                                         />
@@ -77,7 +77,7 @@ function Certificate() {
                                         href="https://www.sololearn.com/Certificate/1014-23861767/jpg/"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 md:h-44 w-full md:w-90 object-cover"
+                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
                                             src="https://www.sololearn.com/Certificate/1014-23861767/jpg/"
                                             alt=""
                                         />
@@ -93,7 +93,7 @@ function Certificate() {
                                         href="https://www.sololearn.com/Certificate/1023-23861767/jpg/"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 md:h-44 w-full md:w-90 object-cover"
+                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
                                             src="https://www.sololearn.com/Certificate/1023-23861767/jpg"
                                             alt=""
                                         />
@@ -109,7 +109,7 @@ function Certificate() {
                                         href="https://www.sololearn.com/certificates/course/en/23861767/1024/landscape/png/"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 md:h-44 w-full md:w-90 object-cover"
+                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
                                             src="https://www.sololearn.com/certificates/course/en/23861767/1024/landscape/png"
                                             alt=""
                                         />
@@ -125,7 +125,7 @@ function Certificate() {
                                         href="https://www.sololearn.com/Certificate/1162-23861767/jpg/"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 md:h-44 w-full md:w-90 object-cover"
+                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
                                             src="https://www.sololearn.com/Certificate/1162-23861767/jpg"
                                             alt=""
                                         />
@@ -141,7 +141,7 @@ function Certificate() {
                                         href="https://www.sololearn.com/Certificate/1097-23861767/jpg/"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 md:h-44 w-full md:w-90 object-cover"
+                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
                                             src="https://www.sololearn.com/Certificate/1097-23861767/jpg"
                                             alt=""
                                         />

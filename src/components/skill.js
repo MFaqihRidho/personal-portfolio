@@ -7,7 +7,7 @@ function Skill() {
                 My Skills
             </h1>
             <div className="grid grid-cols-3 text-center md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-x-30 lg:gap-x-32 gap-y-10">
-                <div className="flex flex-col items-center justify-center transition-all duration-300 grayscale hover:grayscale-0">
+                <div className="flex flex-col items-center justify-center">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -34,7 +34,7 @@ function Skill() {
                     </svg>
                     <p className="font-medium">HTML</p>
                 </div>
-                <div className="flex flex-col items-center justify-center transition-all duration-300 grayscale hover:grayscale-0">
+                <div className="flex flex-col items-center justify-center">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -61,7 +61,7 @@ function Skill() {
                     </svg>
                     <p className="font-medium">CSS</p>
                 </div>
-                <div className="flex flex-col items-center justify-center transition-all duration-300 grayscale hover:grayscale-0">
+                <div className="flex flex-col items-center justify-center">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -87,7 +87,7 @@ function Skill() {
                     </svg>
                     <p className="font-medium">Javascript</p>
                 </div>
-                <div className="flex flex-col items-center justify-center transition-all duration-300 grayscale hover:grayscale-0">
+                <div className="flex flex-col items-center justify-center">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -118,7 +118,7 @@ function Skill() {
                     </svg>
                     <p className="font-medium">React Js</p>
                 </div>
-                <div className="flex flex-col items-center justify-center transition-all duration-300 grayscale hover:grayscale-0">
+                <div className="flex flex-col items-center justify-center">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -141,7 +141,7 @@ function Skill() {
                     </svg>
                     <p className="font-medium">Redux</p>
                 </div>
-                <div className="flex flex-col items-center justify-center transition-all duration-300 grayscale hover:grayscale-0">
+                <div className="flex flex-col items-center justify-center">
                     <svg
                         className="md:w-[130px] w-[100px] h-[100px] md:h-[130px]"
                         viewBox="0 0 256 154"
@@ -170,7 +170,7 @@ function Skill() {
 
                     <p className="font-medium">Tailwind</p>
                 </div>
-                <div className="flex flex-col items-center justify-center transition-all duration-300 grayscale hover:grayscale-0">
+                <div className="flex flex-col items-center justify-center">
                     <svg
                         className="md:w-[130px] w-[100px] h-[100px] md:h-[130px]"
                         x="0px"
@@ -216,7 +216,7 @@ function Skill() {
                     </svg>
                     <p className="font-medium">Material Ui</p>
                 </div>
-                <div className="flex flex-col items-center justify-center transition-all duration-300 grayscale hover:grayscale-0">
+                <div className="flex flex-col items-center justify-center">
                     <svg
                         className="md:w-[130px] w-[100px] h-[100px] md:h-[130px]"
                         x="0px"
@@ -234,7 +234,7 @@ function Skill() {
                     </svg>
                     <p className="font-medium">Bootstrap</p>
                 </div>
-                <div className="flex flex-col items-center justify-center transition-all duration-300 grayscale hover:grayscale-0">
+                <div className="flex flex-col items-center justify-center">
                     <svg
                         x="0px"
                         y="0px"
@@ -260,7 +260,7 @@ function Skill() {
                     </svg>
                     <p className="font-medium">Firebase</p>
                 </div>
-                <div className="flex flex-col items-center justify-center transition-all duration-300 grayscale hover:grayscale-0">
+                <div className="flex flex-col items-center justify-center">
                     <svg
                         x="0px"
                         y="0px"

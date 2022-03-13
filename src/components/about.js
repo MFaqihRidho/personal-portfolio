@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div>
+        <div id="about">
             <svg
                 className="-mb-1"
                 xmlns="http://www.w3.org/2000/svg"
