@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 function Hero() {
-    gsap.registerPlugin(TextPlugin);
+    gsap.registerPlugin(TextPlugin, ScrollToPlugin);
     useEffect(() => {
         gsap.to("#stack", {
             duration: 2,
@@ -16,6 +17,20 @@ function Hero() {
             delay: 0.5,
         });
     }, []);
+
+    const handleClickTo = (id, wave) => {
+        if (wave === true) {
+            gsap.to(window, {
+                duration: 1,
+                scrollTo: { y: `#${id}`, offsetY: -150 },
+            });
+        } else {
+            gsap.to(window, {
+                duration: 1,
+                scrollTo: `#${id}`,
+            });
+        }
+    };
 
     return (
         <div className="container flex flex-col items-center justify-between w-full gap-5 mx-auto my-10 font-bold md:items-start md:flex-row md:px-5 lg:px-0 md:mt-36">
@@ -31,7 +46,10 @@ function Hero() {
                     Handsome Programmer
                 </h1>
                 <div className="flex items-center gap-3 mt-3 md:text-xl lg:text-3xl">
-                    <button className="px-8 py-1.5 shadow-lg font-semibold border-4 border-black dark:border-white bg-main">
+                    <button
+                        onClick={() => handleClickTo("contact", false)}
+                        className="px-8 py-1.5 shadow-lg font-semibold border-4 border-black dark:border-white bg-main"
+                    >
                         Hire Me
                     </button>
                     <button className="px-5 py-1.5 shadow-lg font-semibold border-4 border-black dark:border-white bg-main">
