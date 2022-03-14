@@ -9,7 +9,7 @@ function Footer() {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-10">
             <button
                 onClick={handleClickToTop}
                 className="flex flex-col items-center justify-center mt-10 w-36 animate-bounce md:-mb-20"

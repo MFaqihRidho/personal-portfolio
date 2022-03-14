@@ -101,7 +101,10 @@ function Navbar() {
                     >
                         Projects
                     </button>
-                    <button className="hidden font-bold md:block text-main">
+                    <button
+                        onClick={() => handleClickTo("contact", false)}
+                        className="hidden font-bold md:block text-main"
+                    >
                         Contact
                     </button>
                     <button

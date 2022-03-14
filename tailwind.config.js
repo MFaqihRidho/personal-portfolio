@@ -8,6 +8,7 @@ module.exports = {
             white: "#FFFFFF",
             light: "#e5e5e5",
             dark: "#14213d",
+            transparent: "transparent",
         },
         fontFamily: { Spartan: ["Spartan"] },
     },
