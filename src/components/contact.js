@@ -1,6 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function Contact() {
+    gsap.registerPlugin(ScrollTrigger);
+
+    useEffect(() => {
+        const fadeRight = gsap.fromTo(
+            ".contact_form",
+            { x: -400, opacity: 0.5 },
+            { duration: 1.5, x: 0, opacity: 1, ease: "expo" }
+        );
+        const fadeleft = gsap.fromTo(
+            ".contact_info",
+            { x: 400, opacity: 0.5 },
+            { duration: 1.5, x: 0, opacity: 1, ease: "expo" }
+        );
+
+        ScrollTrigger.create({
+            trigger: ".contact_form",
+            animation: fadeRight,
+        });
+        ScrollTrigger.create({
+            trigger: ".contact_info",
+            animation: fadeleft,
+        });
+    }, []);
+
     return (
         <div
             id="contact"
@@ -10,7 +36,7 @@ function Contact() {
                 Contact Me
             </h1>
             <div className="flex flex-col w-full gap-10 md:gap-5 lg:flex-row">
-                <div class="bg-main w-full p-8 sm:p-12 shadow-lg">
+                <div class="bg-main contact_form w-full p-8 sm:p-12 shadow-lg">
                     <form
                         target="_blank"
                         action="https://formsubmit.co/mfaqihridhoo@gmail.com"
@@ -95,7 +121,7 @@ function Contact() {
                         </div>
                     </form>
                 </div>
-                <div className="w-full p-8 shadow-lg bg-main sm:p-12">
+                <div className="w-full p-8 shadow-lg contact_info bg-main sm:p-12">
                     <p className="mb-2 text-2xl font-bold">
                         {" "}
                         Contact Information

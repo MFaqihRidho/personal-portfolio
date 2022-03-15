@@ -7,6 +7,7 @@ import Certificate from "./components/certificate";
 import Projects from "./components/projects";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
+import Intro from "./components/intro";
 
 function App() {
     return (

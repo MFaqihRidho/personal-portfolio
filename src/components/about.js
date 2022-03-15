@@ -1,6 +1,45 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
+import { TextPlugin } from "gsap/TextPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function About() {
+    gsap.registerPlugin(TextPlugin, ScrollTrigger);
+
+    useEffect(() => {
+        const write = gsap.to("#about_desc", {
+            duration: 3,
+            text: {
+                value: `Hai selamat datang di profil sederhana saya,kenalkan
+                    saya <b>Faqih</b> ,saya adalah seorang
+                    <b>Junior Front-End Developer</b>.Saya menekuni
+                    programming <b>sejak tahun 2020</b> dan seiring
+                    berjalan waktu saya akan terus berkembang
+                    mempelajari banyak bahasa <b>pemrograman</b>,dan
+                    <b>framework</b> yang dibutuhkan oleh
+                    <b>industri digital</b>`,
+                newClass: "class2",
+                oldClass: "class1",
+            },
+            ease: "slow",
+        });
+
+        const fadeBorder = gsap.fromTo(
+            "#border",
+            { opacity: 0, x: -300 },
+            { opacity: 1, duration: 3, x: 0 }
+        );
+
+        ScrollTrigger.create({
+            trigger: "#about_desc",
+            animation: write,
+        });
+        ScrollTrigger.create({
+            trigger: "#border",
+            animation: fadeBorder,
+        });
+    }, []);
+
     return (
         <div id="about">
             <svg
@@ -16,7 +55,10 @@ function About() {
             </svg>
             <div className="w-full py-10 text-black min-h-fit bg-main">
                 <div className="container px-5 mx-auto text-center md:grid md:grid-cols-2 md:gap-14">
-                    <div className="relative hidden md:flex items-center justify-center border-[7px] w-full h-full">
+                    <div
+                        id="border"
+                        className="relative hidden md:flex items-center justify-center border-[7px] w-full h-full"
+                    >
                         <div className="w-full bg-white flex justify-between h-6 absolute right-0 left-0 top-0 border-b-[7px]">
                             <div className="flex flex-row gap-1">
                                 <div className="w-4 h-4 bg-black rounded-full "></div>
@@ -41,16 +83,10 @@ function About() {
                         <h1 className="ml-3 text-3xl font-bold text-left md:text-left md:text-5xl">
                             About Me
                         </h1>
-                        <p className="mt-3 text-lg font-medium text-left md:text-2xl">
-                            Hai selamat datang di profil sederhana saya,kenalkan
-                            saya <b>Faqih</b> ,saya adalah seorang{" "}
-                            <b>Junior Front-End Developer</b>.Saya menekuni
-                            programming <b>sejak tahun 2020</b> dan seiring
-                            berjalan waktu saya akan terus berkembang
-                            mempelajari banyak bahasa <b>pemrograman</b>,dan{" "}
-                            <b>framework</b> yang dibutuhkan oleh{" "}
-                            <b>industri digital</b>
-                        </p>
+                        <p
+                            id="about_desc"
+                            className="mt-3 text-lg font-medium text-left md:text-2xl"
+                        ></p>
                     </div>
                 </div>
             </div>
