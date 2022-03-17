@@ -9,7 +9,7 @@ function Skill() {
         const scaleIn = gsap.fromTo(
             ".skill",
             { scale: 0 },
-            { duration: 1.5, scale: 1, ease: "elastic" }
+            { duration: 1.5, scale: 1, ease: "elastic", delay: 0.5 }
         );
 
         ScrollTrigger.create({

@@ -79,7 +79,7 @@ function Navbar() {
                 <div className="flex items-center gap-5">
                     <img
                         className="w-[80px] md:mb-3 h-[80px]"
-                        src="https://i.postimg.cc/JzwsPqw1/mfr-logo.png"
+                        src="https://i.postimg.cc/TYwYcJDc/mfr-logo-1.png"
                         alt=""
                         n
                     />

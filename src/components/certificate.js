@@ -20,16 +20,17 @@ function Certificate() {
                     <h1 className="mt-10 ml-5 text-3xl font-bold pb-7 md:text-5xl">
                         My Certificate
                     </h1>
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
+                    <div className="grid grid-cols-2 gap-5 md:grid-cols-3">
                         <div className="flex flex-col gap-3 text-center">
                             <Border
                                 children={
                                     <a
                                         target={"_blank"}
+                                        rel="noreferrer"
                                         href="https://www.dicoding.com/certificates/L4PQ37RW4PO1"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
+                                            className="object-cover w-40 xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full md:w-90"
                                             src="https://i.postimg.cc/43GrJtg4/sertifikat-course-163-1265221-211221131106-1.png"
                                             alt=""
                                         />
@@ -42,10 +43,11 @@ function Certificate() {
                                 children={
                                     <a
                                         target={"_blank"}
+                                        rel="noreferrer"
                                         href="https://www.freecodecamp.org/certification/faqih_ridho/responsive-web-design"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 sm:h-56 h-28 md:h-44 sm:w-full w-40 md:w-90 object-cover"
+                                            className="object-cover w-40 xl:h-80 lg:h-64 sm:h-56 h-28 md:h-44 sm:w-full md:w-90"
                                             src="https://i.postimg.cc/9M9202kC/image-2022-03-12-130929.png"
                                             alt=""
                                         />
@@ -58,10 +60,11 @@ function Certificate() {
                                 children={
                                     <a
                                         target={"_blank"}
+                                        rel="noreferrer"
                                         href="https://www.freecodecamp.org/certification/faqih_ridho/front-end-development-libraries"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
+                                            className="object-cover w-40 xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full md:w-90"
                                             src="https://i.postimg.cc/KvMTb3fH/image-2022-03-12-131553.png"
                                             alt=""
                                         />
@@ -74,10 +77,11 @@ function Certificate() {
                                 children={
                                     <a
                                         target={"_blank"}
+                                        rel="noreferrer"
                                         href="https://www.sololearn.com/Certificate/1014-23861767/jpg/"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
+                                            className="object-cover w-40 xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full md:w-90"
                                             src="https://www.sololearn.com/Certificate/1014-23861767/jpg/"
                                             alt=""
                                         />
@@ -90,10 +94,11 @@ function Certificate() {
                                 children={
                                     <a
                                         target={"_blank"}
+                                        rel="noreferrer"
                                         href="https://www.sololearn.com/Certificate/1023-23861767/jpg/"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
+                                            className="object-cover w-40 xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full md:w-90"
                                             src="https://www.sololearn.com/Certificate/1023-23861767/jpg"
                                             alt=""
                                         />
@@ -106,10 +111,11 @@ function Certificate() {
                                 children={
                                     <a
                                         target={"_blank"}
+                                        rel="noreferrer"
                                         href="https://www.sololearn.com/certificates/course/en/23861767/1024/landscape/png/"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
+                                            className="object-cover w-40 xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full md:w-90"
                                             src="https://www.sololearn.com/certificates/course/en/23861767/1024/landscape/png"
                                             alt=""
                                         />
@@ -122,10 +128,11 @@ function Certificate() {
                                 children={
                                     <a
                                         target={"_blank"}
+                                        rel="noreferrer"
                                         href="https://www.sololearn.com/Certificate/1162-23861767/jpg/"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
+                                            className="object-cover w-40 xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full md:w-90"
                                             src="https://www.sololearn.com/Certificate/1162-23861767/jpg"
                                             alt=""
                                         />
@@ -138,10 +145,11 @@ function Certificate() {
                                 children={
                                     <a
                                         target={"_blank"}
+                                        rel="noreferrer"
                                         href="https://www.sololearn.com/Certificate/1097-23861767/jpg/"
                                     >
                                         <img
-                                            className="xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full w-40 md:w-90 object-cover"
+                                            className="object-cover w-40 xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full md:w-90"
                                             src="https://www.sololearn.com/Certificate/1097-23861767/jpg"
                                             alt=""
                                         />

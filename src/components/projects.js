@@ -285,7 +285,10 @@ function Projects() {
                                     ></path>
                                 </g>
                             </svg>
-                            <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-the-movie-database-tmdb-a-popular-user-editable-database-for-movies-and-tv-shows-logo-shadow-tal-revivo.png" />
+                            <img
+                                alt="tmdb"
+                                src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-the-movie-database-tmdb-a-popular-user-editable-database-for-movies-and-tv-shows-logo-shadow-tal-revivo.png"
+                            />
                         </div>
                     }
                 ></Card>

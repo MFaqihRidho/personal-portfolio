@@ -7,7 +7,8 @@ function Intro() {
 
     useEffect(() => {
         setLoading(true);
-
+        let height = -window.innerHeight;
+        console.log(height);
         gsap.fromTo(
             ".logo",
             { scale: 0, rotate: 0 },
@@ -21,8 +22,18 @@ function Intro() {
                     setLoading(false);
                     gsap.fromTo(
                         ".bg-intro",
-                        { y: 0 },
-                        { duration: 3, y: -800, ease: "back", delay: 3 }
+                        { top: 0 },
+                        {
+                            duration: 3,
+                            top: height - 100,
+                            ease: "expo",
+                            delay: 4,
+                        }
+                    );
+                    gsap.fromTo(
+                        ".candaan",
+                        { scale: 0 },
+                        { duration: 1, scale: 1, ease: "elastic" }
                     );
                 });
         getCandaan();
@@ -32,17 +43,16 @@ function Intro() {
         <div className="fixed top-0 left-0 right-0 z-40 flex flex-col items-center justify-center w-full h-screen bg-white opacity-100 dark:bg-black bg-intro">
             <img
                 className="w-24 h-24 md:w-36 md:h-36 logo"
-                src="https://i.postimg.cc/JzwsPqw1/mfr-logo.png"
+                src="https://i.postimg.cc/TYwYcJDc/mfr-logo-1.png"
                 alt=""
                 n
             />
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center candaan">
                 <h1 className="w-2/3 text-xl font-bold text-center md:w-1/2 md:text-2xl">
                     {candaan.status === 200 &&
                         loading === false &&
                         candaan.data}
                 </h1>
-                <div className="w-full h-full bg-white"></div>
             </div>
         </div>
     );

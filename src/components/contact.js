@@ -9,12 +9,12 @@ function Contact() {
         const fadeRight = gsap.fromTo(
             ".contact_form",
             { x: -100, opacity: 0.5 },
-            { duration: 1.5, x: 0, opacity: 1, ease: "expo" }
+            { duration: 2, x: 0, opacity: 1, ease: "expo" }
         );
         const fadeleft = gsap.fromTo(
             ".contact_info",
             { x: 100, opacity: 0.5 },
-            { duration: 1.5, x: 0, opacity: 1, ease: "expo" }
+            { duration: 2, x: 0, opacity: 1, ease: "expo" }
         );
 
         ScrollTrigger.create({
@@ -22,7 +22,7 @@ function Contact() {
             animation: fadeRight,
         });
         ScrollTrigger.create({
-            trigger: ".contact_info",
+            trigger: ".contact_form",
             animation: fadeleft,
         });
     }, []);

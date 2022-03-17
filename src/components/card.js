@@ -22,12 +22,18 @@ function Card(props) {
                         className="w-full"
                         href={props.website}
                         target={"_blank"}
+                        rel="noreferrer"
                     >
                         <button className="px-8 py-1.5 w-full shadow-lg font-bold border-4 border-black bg-main">
                             Visit
                         </button>
                     </a>
-                    <a className="w-full" href={props.code} target={"_blank"}>
+                    <a
+                        className="w-full"
+                        href={props.code}
+                        target={"_blank"}
+                        rel="noreferrer"
+                    >
                         <button className="px-8 py-1.5 w-full shadow-lg font-bold border-4 border-black bg-main">
                             Code
                         </button>
