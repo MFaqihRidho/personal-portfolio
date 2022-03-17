@@ -14,7 +14,7 @@ function Hero() {
                 oldClass: "class1",
             },
             ease: "power-2",
-            delay: 0.5,
+            delay: 5,
         });
     }, []);
 
@@ -33,7 +33,10 @@ function Hero() {
     };
 
     return (
-        <div className="container flex flex-col items-center justify-between w-full gap-5 mx-auto my-10 font-bold md:items-start md:flex-row md:px-5 lg:px-0 md:mt-36">
+        <div
+            id="home"
+            className="container flex flex-col items-center justify-between w-full gap-5 mx-auto my-10 font-bold md:items-start md:flex-row md:px-5 lg:px-0 md:mt-36"
+        >
             <div className="flex flex-col items-center order-2 md:items-start md:gap-4 md:order-1">
                 <h1 className="text-2xl md:text-4xl lg:text-5xl">Hai,Saya</h1>
                 <h1 className="text-3xl md:text-5xl lg:text-7xl text-main">

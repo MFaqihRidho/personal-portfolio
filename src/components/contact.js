@@ -8,12 +8,12 @@ function Contact() {
     useEffect(() => {
         const fadeRight = gsap.fromTo(
             ".contact_form",
-            { x: -400, opacity: 0.5 },
+            { x: -100, opacity: 0.5 },
             { duration: 1.5, x: 0, opacity: 1, ease: "expo" }
         );
         const fadeleft = gsap.fromTo(
             ".contact_info",
-            { x: 400, opacity: 0.5 },
+            { x: 100, opacity: 0.5 },
             { duration: 1.5, x: 0, opacity: 1, ease: "expo" }
         );
 

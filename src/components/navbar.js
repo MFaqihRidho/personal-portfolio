@@ -168,7 +168,7 @@ function Navbar() {
             <div
                 className={`w-full right-0 left-0 h-screen top-0 ${
                     open ? "inline-block" : "hidden"
-                } absolute md:hidden bg-black opacity-50 z-40`}
+                } fixed md:hidden bg-black opacity-50 z-40`}
             ></div>
         </nav>
     );

@@ -102,6 +102,17 @@ function Footer() {
                             Amerta Media
                         </a>
                     </p>
+                    <p className="mb-2 font-medium">
+                        Candaan API By{" "}
+                        <a
+                            href="https://github.com/ardhptr21/candaan-api"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="underline"
+                        >
+                            ardhptr21
+                        </a>
+                    </p>
                 </div>
             </footer>
         </div>
