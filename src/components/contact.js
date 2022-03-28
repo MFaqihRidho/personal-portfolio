@@ -8,13 +8,13 @@ function Contact() {
     useEffect(() => {
         const fadeRight = gsap.fromTo(
             ".contact_form",
-            { x: -100, opacity: 0.5 },
-            { duration: 2, x: 0, opacity: 1, ease: "expo" }
+            { x: -100 },
+            { duration: 2, x: 0, ease: "expo" }
         );
         const fadeleft = gsap.fromTo(
             ".contact_info",
-            { x: 100, opacity: 0.5 },
-            { duration: 2, x: 0, opacity: 1, ease: "expo" }
+            { x: 100 },
+            { duration: 2, x: 0, ease: "expo" }
         );
 
         ScrollTrigger.create({
