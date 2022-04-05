@@ -38,7 +38,7 @@ function Hero() {
             className="container flex flex-col items-center justify-between w-full gap-5 mx-auto my-10 font-bold md:items-start md:flex-row md:px-5 md:mt-36"
         >
             <div className="flex flex-col items-center order-2 md:items-start md:gap-4 md:order-1">
-                <h1 className="text-2xl md:text-4xl lg:text-5xl">Hai,Saya</h1>
+                <h1 className="text-2xl md:text-4xl lg:text-5xl">Hai, Saya</h1>
                 <h1 className="text-3xl md:text-5xl lg:text-7xl text-main">
                     M.Faqih Ridho
                 </h1>
@@ -56,7 +56,14 @@ function Hero() {
                         Hire Me
                     </button>
                     <button className="px-5 py-1.5 shadow-lg font-semibold border-4 border-black dark:border-white bg-main">
-                        Download CV
+                        <a
+                            href="https://drive.google.com/file/d/1fV_svh9YzX_QpKqzoqIsZSB9d0aLOOOA/view?usp=sharing"
+                            target={"_blank"}
+                            rel="noreferrer"
+                        >
+                            {" "}
+                            Download Resume
+                        </a>
                     </button>
                 </div>
                 <div className="flex flex-row gap-5 my-10 md:gap-3">
@@ -118,8 +125,8 @@ function Hero() {
             </div>
             <img
                 className="order-1 w-56 h-56 border-4 rounded-full md:order-2 md:-mt-10 lg:-mt-16 md:w-72 md:h-72 lg:w-96 lg:h-96"
-                src="https://i.postimg.cc/5tt44XvY/JPEG-20200214-122112-removebg-preview-2.png"
-                alt=""
+                src="https://i.postimg.cc/mkWjLwVN/profile-portofolio.png"
+                alt="profile"
             />
         </div>
     );
