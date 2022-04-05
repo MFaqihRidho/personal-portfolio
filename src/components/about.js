@@ -39,7 +39,7 @@ function About() {
     }, []);
 
     return (
-        <div id="about">
+        <section id="about">
             <svg
                 className="-mb-1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@ function About() {
                     d="M0,192L80,197.3C160,203,320,213,480,208C640,203,800,181,960,176C1120,171,1280,181,1360,186.7L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
                 ></path>
             </svg>
-        </div>
+        </section>
     );
 }
 

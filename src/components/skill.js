@@ -19,7 +19,7 @@ function Skill() {
     }, []);
 
     return (
-        <div id="skills" className="container px-5 mx-auto pb-7 min-h-fit">
+        <section id="skills" className="container px-5 mx-auto pb-7 min-h-fit">
             <h1 className="ml-5 text-3xl font-bold pb-7 text-main md:text-5xl">
                 My Skills
             </h1>
@@ -414,7 +414,7 @@ function Skill() {
                     <p className="font-medium">Typescript</p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

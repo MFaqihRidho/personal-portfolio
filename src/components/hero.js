@@ -33,7 +33,7 @@ function Hero() {
     };
 
     return (
-        <div
+        <header
             id="home"
             className="container flex flex-col items-center justify-between w-full gap-5 mx-auto my-10 font-bold md:items-start md:flex-row px-5 md:mt-36"
         >
@@ -128,7 +128,7 @@ function Hero() {
                 src="https://i.postimg.cc/mkWjLwVN/profile-portofolio.png"
                 alt="profile"
             />
-        </div>
+        </header>
     );
 }
 

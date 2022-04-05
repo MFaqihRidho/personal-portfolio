@@ -28,7 +28,7 @@ function Contact() {
     }, []);
 
     return (
-        <div
+        <section
             id="contact"
             className="container flex flex-col items-center justify-center w-full px-5 mx-auto mt-10 text-black"
         >
@@ -204,7 +204,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

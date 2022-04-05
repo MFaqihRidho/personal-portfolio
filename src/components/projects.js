@@ -3,7 +3,7 @@ import Card from "./card";
 
 function Projects() {
     return (
-        <div
+        <section
             id="projects"
             className="container px-5 mx-auto pb-7 lg:-mt-10 min-h-fit"
         >
@@ -478,7 +478,7 @@ function Projects() {
                     }
                 ></Card>
             </div>
-        </div>
+        </section>
     );
 }
 
