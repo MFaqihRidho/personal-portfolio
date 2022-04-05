@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
 import { gsap } from "gsap";
-import { TextPlugin } from "gsap/TextPlugin";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { TextPlugin } from "gsap/TextPlugin";
+import React, { useEffect } from "react";
 
 function Hero() {
     gsap.registerPlugin(TextPlugin, ScrollToPlugin);
