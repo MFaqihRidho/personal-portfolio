@@ -57,7 +57,7 @@ function Hero() {
                     </button>
                     <button className="md:px-5 px-2 py-1.5 shadow-lg font-semibold border-4 border-black dark:border-white bg-main">
                         <a
-                            href="https://drive.google.com/file/d/1fV_svh9YzX_QpKqzoqIsZSB9d0aLOOOA/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1UdFsnDF6E5TO4vs_JpckhkVSz3P4VfBk/view?usp=sharing"
                             target={"_blank"}
                             rel="noreferrer"
                         >
