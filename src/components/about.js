@@ -10,11 +10,11 @@ function About() {
         const write = gsap.to("#about_desc", {
             duration: 5,
             text: {
-                value: `Hai selamat datang di profil sederhana saya,kenalkan
-                    saya <b>Faqih</b>, Saya seorang <b>Front-End Developer</b> yang terbiasa membuat
+                value: `Hai selamat datang di profil sederhana saya, kenalkan
+                    saya <b>Faqih</b>, saya seorang <b>Front-End Developer</b> yang terbiasa membuat
                     project menggunakan <b>React Js</b> dan <b>Tailwind CSS</b>, saya
                     menggunakan <b>Git</b> sebagai version control dan <b>Github</b> untuk
-                    menyimpan semua code project saya.Saya sedang mencari
+                    menyimpan semua code project saya. Saya sedang mencari
                     kesempatan untuk bisa bekerja sebagai <b>Front-End Developer</b> di perusahaan yang <b>kolaboratif</b>`,
                 newClass: "class2",
                 oldClass: "class1",
