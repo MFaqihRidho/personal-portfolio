@@ -8,7 +8,7 @@ function About() {
 
     useEffect(() => {
         const write = gsap.to("#about_desc", {
-            duration: 3,
+            duration: 5,
             text: {
                 value: `Hai selamat datang di profil sederhana saya,kenalkan
                     saya <b>Faqih</b>, Saya seorang <b>Front-End Developer</b> yang terbiasa membuat

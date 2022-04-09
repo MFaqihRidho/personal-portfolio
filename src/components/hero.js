@@ -14,7 +14,7 @@ function Hero() {
                 oldClass: "class1",
             },
             ease: "power-2",
-            delay: 6,
+            delay: 7,
         });
     }, []);
 
@@ -55,16 +55,15 @@ function Hero() {
                     >
                         Hire Me
                     </button>
-                    <button className="md:px-5 px-2 py-1.5 shadow-lg font-semibold border-4 border-black dark:border-white bg-main">
-                        <a
-                            href="https://drive.google.com/file/d/1UdFsnDF6E5TO4vs_JpckhkVSz3P4VfBk/view?usp=sharing"
-                            target={"_blank"}
-                            rel="noreferrer"
-                        >
-                            {" "}
-                            Download Resume
-                        </a>
-                    </button>
+                    <a
+                        className="md:px-5 px-2 py-1.5 shadow-lg font-semibold border-4 border-black dark:border-white bg-main"
+                        href="https://drive.google.com/file/d/1UdFsnDF6E5TO4vs_JpckhkVSz3P4VfBk/view?usp=sharing"
+                        target={"_blank"}
+                        rel="noreferrer"
+                    >
+                        {" "}
+                        Download Resume
+                    </a>
                 </div>
                 <div className="flex flex-row gap-5 my-10 md:gap-3">
                     <a
