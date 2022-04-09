@@ -251,9 +251,7 @@ function Projects() {
                     }
                 ></Card>
                 <Card
-                    img={
-                        "https://i.postimg.cc/0j65rLhP/image-2022-03-13-163612.png"
-                    }
+                    img={"https://i.postimg.cc/KcJCY5t5/Anime-Finder-1.png"}
                     title="Anime Finder"
                     desc="Project Mencari Details Anime menggunakan JIKAN API"
                     website="https://animefinder.vercel.app"
@@ -344,9 +342,7 @@ function Projects() {
                     }
                 ></Card>
                 <Card
-                    img={
-                        "https://i.postimg.cc/W4GrzWdq/image-2022-03-13-110840.png"
-                    }
+                    img={"https://i.postimg.cc/CxHCPNCq/movie-finder.png"}
                     title="Movie Finder"
                     desc="Project Mencari rating film seperti IMDB
                     menggunakan API TMDB"
@@ -421,9 +417,7 @@ function Projects() {
                     }
                 ></Card>
                 <Card
-                    img={
-                        "https://i.postimg.cc/FzjPNKGS/image-2022-03-13-165520.png"
-                    }
+                    img={"https://i.postimg.cc/DzSMtHxN/Mealdb-app.png"}
                     title="Meal Finder"
                     desc="Project Mencari Resep makanan
                     menggunakan API THEMEALDB"

@@ -57,12 +57,12 @@ function Hero() {
                     </button>
                     <a
                         className="md:px-5 px-2 py-1.5 shadow-lg font-semibold border-4 border-black dark:border-white bg-main"
-                        href="https://drive.google.com/file/d/1UdFsnDF6E5TO4vs_JpckhkVSz3P4VfBk/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1CmjCgfST-OCchEXXxNsbY7jKLuoVc5-j/view?usp=sharing"
                         target={"_blank"}
                         rel="noreferrer"
                     >
                         {" "}
-                        Download Resume
+                        Download CV
                     </a>
                 </div>
                 <div className="flex flex-row gap-5 my-10 md:gap-3">
@@ -124,7 +124,7 @@ function Hero() {
             </div>
             <img
                 className="order-1 w-56 h-56 border-4 rounded-full md:order-2 md:-mt-10 lg:-mt-16 md:w-72 md:h-72 lg:w-96 lg:h-96"
-                src="https://i.postimg.cc/mkWjLwVN/profile-portofolio.png"
+                src="https://i.postimg.cc/1t1JW8wX/profile-portofolio.png"
                 alt="profile"
             />
         </header>

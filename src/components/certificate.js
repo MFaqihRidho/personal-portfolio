@@ -31,7 +31,7 @@ function Certificate() {
                                     >
                                         <img
                                             className="object-cover w-40 xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full md:w-90"
-                                            src="https://i.postimg.cc/43GrJtg4/sertifikat-course-163-1265221-211221131106-1.png"
+                                            src="https://i.postimg.cc/250KJmdh/sertifikat-dicoding.png"
                                             alt=""
                                         />
                                     </a>
