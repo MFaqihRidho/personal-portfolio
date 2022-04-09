@@ -342,7 +342,7 @@ function Projects() {
                     }
                 ></Card>
                 <Card
-                    img={"https://i.postimg.cc/CxHCPNCq/movie-finder.png"}
+                    img={"https://i.postimg.cc/QNcYcpBR/movie-finder.png"}
                     title="Movie Finder"
                     desc="Project Mencari rating film seperti IMDB
                     menggunakan API TMDB"
