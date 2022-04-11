@@ -7,6 +7,7 @@ function Navbar() {
     const menuRef = useRef(null);
     const [dark, setDark] = useState(true);
     const [open, setOpen] = useState(false);
+    const [isVisible, setIsVisible] = useState(false);
     const [listening, setListening] = useState(false);
     gsap.registerPlugin(ScrollToPlugin);
 
@@ -37,6 +38,30 @@ function Navbar() {
         setOpen(!open);
         console.log(!open);
     };
+
+    const scrollTop = () => {
+        gsap.to(window, {
+            duration: 1,
+            scrollTo: { y: 0 },
+        });
+    };
+
+    useEffect(() => {
+        const listenToScroll = () => {
+            let heightToShowFrom = 50;
+            const winScroll =
+                document.body.scrollTop || document.documentElement.scrollTop;
+            if (winScroll > heightToShowFrom) {
+                // to limit setting state only the first time
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+        setIsVisible(false);
+        window.addEventListener("scroll", listenToScroll);
+        return () => window.removeEventListener("scroll", listenToScroll);
+    }, []);
 
     useEffect(() => {
         if (dark) {
@@ -71,7 +96,11 @@ function Navbar() {
     }, [listening]);
 
     return (
-        <nav className="w-full font-bold px-5 my-5 md:my-7 h-[58px]">
+        <nav
+            className={`w-full sticky z-40 ${
+                isVisible ? "bg-white dark:bg-black" : ""
+            } top-0 font-bold px-5 my-5 md:my-7 h-[90px] transition-all duration-200`}
+        >
             <div
                 ref={menuRef}
                 className="container flex items-center content-center justify-between mx-auto "
@@ -88,7 +117,12 @@ function Navbar() {
                     </h1>
                 </div>
                 <div className="flex items-center gap-8 text-2xl font-bold">
-                    <button className="hidden font-bold md:block">Home</button>
+                    <button
+                        onClick={() => scrollTop()}
+                        className="hidden font-bold md:block"
+                    >
+                        Home
+                    </button>
                     <button
                         onClick={() => handleClickTo("about", true)}
                         className="hidden font-bold md:block"

@@ -40,7 +40,7 @@ function Intro() {
     }, []);
 
     return (
-        <div className="fixed top-0 left-0 right-0 z-40 flex flex-col items-center justify-center w-full h-screen bg-white opacity-100 dark:bg-black bg-intro">
+        <div className="fixed top-0 left-0 right-0 z-50 flex flex-col items-center justify-center w-full h-screen bg-white opacity-100 dark:bg-black bg-intro">
             <img
                 className="w-24 h-24 md:w-36 md:h-36 logo"
                 src="https://i.postimg.cc/vZhrRypz/mfr-logo-1.png"

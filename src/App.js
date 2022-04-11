@@ -11,7 +11,7 @@ import Intro from "./components/intro";
 
 function App() {
     return (
-        <div className="text-black scroll-smooth overflow-hidden transition-all duration-300 dark:text-white font-Spartan bg-[url('https://i.postimg.cc/7LqP0TtN/light.jpg')] dark:bg-[url('https://i.postimg.cc/bwcwY5QW/dark.png')] flex flex-col min-h-screen">
+        <div className="text-black scroll-smooth transition-all duration-300 dark:text-white font-Spartan bg-[url('https://i.postimg.cc/7LqP0TtN/light.jpg')] dark:bg-[url('https://i.postimg.cc/bwcwY5QW/dark.png')] flex flex-col min-h-screen">
             <Intro></Intro>
             <Navbar></Navbar>
             <Hero></Hero>

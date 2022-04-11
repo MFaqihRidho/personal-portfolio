@@ -30,7 +30,7 @@ function Contact() {
     return (
         <section
             id="contact"
-            className="container flex flex-col items-center justify-center w-full px-5 mx-auto mt-10 text-black"
+            className="container overflow-hidden flex flex-col items-center justify-center w-full px-5 mx-auto mt-10 text-black"
         >
             <h1 className="self-start ml-5 text-3xl font-bold pb-7 text-main md:text-5xl">
                 Contact Me
