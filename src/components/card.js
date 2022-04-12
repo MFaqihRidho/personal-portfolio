@@ -9,7 +9,9 @@ function Card(props) {
                     <div className="absolute w-3 h-3 rounded-full animate-ping bg-main"></div>
                     <div className="w-3 h-3 rounded-full bg-main"></div>
                 </div>
-                <p className="font-bold">Live</p>
+                <p className={`font-bold ${props.black ? "text-black" : ""}`}>
+                    Live
+                </p>
             </div>
             <div className="w-full px-5 py-3 -mt-1 h-fit bg-dark">
                 <div className="pb-3">

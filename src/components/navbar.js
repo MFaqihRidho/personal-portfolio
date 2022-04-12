@@ -79,6 +79,7 @@ function Navbar() {
             document.documentElement.classList.remove("dark");
             setDark(false);
         }
+        scrollTop();
     }, []);
 
     useEffect(() => {
@@ -99,11 +100,11 @@ function Navbar() {
         <nav
             className={`w-full sticky z-40 ${
                 isVisible ? "bg-white dark:bg-black" : ""
-            } top-0 font-bold px-5 my-5 md:my-7 h-[90px] transition-all duration-200`}
+            } top-0 font-bold px-5 my-5 md:my-7 h-[70px] py-0 md:h-[90px] transition-all duration-200`}
         >
             <div
                 ref={menuRef}
-                className="container flex items-center content-center justify-between mx-auto "
+                className="container flex items-center content-center justify-between mx-auto h-full"
             >
                 <div className="flex items-center gap-5">
                     <img

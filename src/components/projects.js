@@ -17,6 +17,7 @@ function Projects() {
                     desc="Project Quran hanya saja menggunakan framework Next js "
                     website="https://quran-app-nextjs.vercel.app/"
                     code="https://github.com/MFaqihRidho/quran-app-nextjs"
+                    black={true}
                     tech={
                         <div className="flex flex-row items-center gap-2 pt-2">
                             <svg
@@ -75,6 +76,7 @@ function Projects() {
                     desc="Project Quran menggunakan API ALQURAN.CLOUD"
                     website="https://quran-web-app.vercel.app/"
                     code="https://github.com/MFaqihRidho/quran-app"
+                    black={true}
                     tech={
                         <div className="flex flex-row items-center gap-2 pt-2">
                             <svg

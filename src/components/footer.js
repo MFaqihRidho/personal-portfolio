@@ -12,7 +12,7 @@ function Footer() {
         <div className="flex flex-col items-center justify-center mt-20">
             <button
                 onClick={handleClickToTop}
-                className="flex flex-col items-center justify-center mt-10 w-36 animate-bounce md:-mb-20"
+                className="flex flex-col items-center gap-2 justify-center mt-10 w-36 animate-bounce md:-mb-20"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,6 @@ function Footer() {
                         d="M5 11l7-7 7 7M5 19l7-7 7 7"
                     />
                 </svg>
-                <p>Back To Top?</p>
             </button>
             <svg
                 className="-mb-2 sm:-mb-1 md:-mb-10"
