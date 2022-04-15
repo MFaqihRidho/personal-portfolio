@@ -2,6 +2,7 @@ import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { TextPlugin } from "gsap/TextPlugin";
 import React, { useEffect } from "react";
+import profile from "../asset/profile.png";
 
 function Hero() {
     gsap.registerPlugin(TextPlugin, ScrollToPlugin);
@@ -124,7 +125,7 @@ function Hero() {
             </div>
             <img
                 className="order-1 w-56 h-56 border-4 rounded-full md:order-2 md:-mt-10 lg:-mt-16 md:w-72 md:h-72 lg:w-96 lg:h-96"
-                src="https://i.postimg.cc/1t1JW8wX/profile-portofolio.png"
+                src={profile}
                 alt="profile"
             />
         </header>

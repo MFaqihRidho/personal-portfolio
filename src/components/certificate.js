@@ -1,5 +1,8 @@
 import React from "react";
 import Border from "./border";
+import dicodingCertificate from "../asset/certificate/sertifikat dicoding.png";
+import freecodecampResponsiveCertificate from "../asset/certificate/freecodecamp responsive.png";
+import freecodecampLibrariesCertificate from "../asset/certificate/freecodecamp frontend libraries.png";
 
 function Certificate() {
     return (
@@ -31,7 +34,7 @@ function Certificate() {
                                     >
                                         <img
                                             className="object-cover w-40 xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full md:w-90"
-                                            src="https://i.postimg.cc/250KJmdh/sertifikat-dicoding.png"
+                                            src={dicodingCertificate}
                                             alt=""
                                         />
                                     </a>
@@ -48,7 +51,9 @@ function Certificate() {
                                     >
                                         <img
                                             className="object-cover w-40 xl:h-80 lg:h-64 sm:h-56 h-28 md:h-44 sm:w-full md:w-90"
-                                            src="https://i.postimg.cc/9M9202kC/image-2022-03-12-130929.png"
+                                            src={
+                                                freecodecampResponsiveCertificate
+                                            }
                                             alt=""
                                         />
                                     </a>
@@ -65,7 +70,9 @@ function Certificate() {
                                     >
                                         <img
                                             className="object-cover w-40 xl:h-80 lg:h-64 h-28 sm:h-56 md:h-44 sm:w-full md:w-90"
-                                            src="https://i.postimg.cc/KvMTb3fH/image-2022-03-12-131553.png"
+                                            src={
+                                                freecodecampLibrariesCertificate
+                                            }
                                             alt=""
                                         />
                                     </a>

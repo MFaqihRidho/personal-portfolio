@@ -1,5 +1,11 @@
 import React from "react";
 import Card from "./card";
+import quranWebAppNext from "../asset/projects/Quran Web App Next js.png";
+import quranWebApp from "../asset/projects/Quran Web App.png";
+import ToDoList from "../asset/projects/To Do List.png";
+import AnimeFinder from "../asset/projects/Anime Finder.png";
+import MovieFinder from "../asset/projects/movie finder.png";
+import MealFinder from "../asset/projects/Mealdb app.png";
 
 function Projects() {
     return (
@@ -12,7 +18,7 @@ function Projects() {
             </h1>
             <div className="grid items-center justify-center grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
                 <Card
-                    img={"https://i.postimg.cc/SRZG6hkV/Quran-Web-App.png"}
+                    img={quranWebAppNext}
                     title="Quran Web App Next js"
                     desc="Project Quran hanya saja menggunakan framework Next js "
                     website="https://quran-app-nextjs.vercel.app/"
@@ -71,7 +77,7 @@ function Projects() {
                     }
                 ></Card>
                 <Card
-                    img={"https://i.postimg.cc/SRZG6hkV/Quran-Web-App.png"}
+                    img={quranWebApp}
                     title="Quran Web App"
                     desc="Project Quran menggunakan API ALQURAN.CLOUD"
                     website="https://quran-web-app.vercel.app/"
@@ -142,9 +148,7 @@ function Projects() {
                     }
                 ></Card>
                 <Card
-                    img={
-                        "https://i.postimg.cc/tJVMVGWN/image-2022-03-13-105800.png"
-                    }
+                    img={ToDoList}
                     title="To Do List Matrix Eisenhower"
                     desc="Project To Do List menggunakan tabel Matrix
                     Eisenhower"
@@ -253,7 +257,7 @@ function Projects() {
                     }
                 ></Card>
                 <Card
-                    img={"https://i.postimg.cc/KcJCY5t5/Anime-Finder-1.png"}
+                    img={AnimeFinder}
                     title="Anime Finder"
                     desc="Project Mencari Details Anime menggunakan JIKAN API"
                     website="https://animefinder.vercel.app"
@@ -344,7 +348,7 @@ function Projects() {
                     }
                 ></Card>
                 <Card
-                    img={"https://i.postimg.cc/QNcYcpBR/movie-finder.png"}
+                    img={MovieFinder}
                     title="Movie Finder"
                     desc="Project Mencari rating film seperti IMDB
                     menggunakan API TMDB"
@@ -419,7 +423,7 @@ function Projects() {
                     }
                 ></Card>
                 <Card
-                    img={"https://i.postimg.cc/DzSMtHxN/Mealdb-app.png"}
+                    img={MealFinder}
                     title="Meal Finder"
                     desc="Project Mencari Resep makanan
                     menggunakan API THEMEALDB"

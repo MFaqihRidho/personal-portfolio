@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import MobileNav from "./mobile/mobilenav";
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import logo from "../asset/logo.png";
 
 function Navbar() {
     const menuRef = useRef(null);
@@ -109,7 +110,7 @@ function Navbar() {
                 <div className="flex items-center gap-5">
                     <img
                         className="w-[80px] md:mb-3 h-[80px]"
-                        src="https://i.postimg.cc/vZhrRypz/mfr-logo-1.png"
+                        src={logo}
                         alt=""
                         n
                     />
