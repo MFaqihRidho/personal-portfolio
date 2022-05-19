@@ -427,8 +427,8 @@ function Projects() {
                     title="Meal Finder"
                     desc="Project Mencari Resep makanan
                     menggunakan API THEMEALDB"
-                    website="https://movie-finder-website.vercel.app"
-                    code="https://github.com/MFaqihRidho/moviedb-website"
+                    website="https://themealdb-website.vercel.app/"
+                    code="https://github.com/MFaqihRidho/themealdb-website"
                     tech={
                         <div className="flex flex-row items-center gap-2 pt-2">
                             <svg
